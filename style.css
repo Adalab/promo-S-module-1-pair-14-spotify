@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+   
+
+}
+
+.logo {
+    width: 7%;
+}
+
+.burger-menu {
+    width: 2%;
+    margin-left:1000px;
+    /*cambiar marging-left de manera correcta*/
+    margin-right: auto;
+}
+
+.blue-seccion {
+    background-color: rgb(75, 131, 228);
+    color: whitesmoke;
+    height: 400px;
+
+}
+
+.boton {
+    background-color: green;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 1px solid green;
+}
+
+.white-seccion {
+    background-color: white;
+    color: black;
+    height: 700px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
