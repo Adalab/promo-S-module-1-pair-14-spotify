@@ -1,46 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 .header {
-    background-color: black;
-   
-
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px;
 }
 
 .logo {
-    width: 7%;
+  height: 100%;
 }
 
 .burger-menu {
-    width: 2%;
-    margin-left:1000px;
-    /*cambiar marging-left de manera correcta*/
-    margin-right: auto;
+  height: 100%;
 }
 
-.blue-seccion {
-    background-color: rgb(75, 131, 228);
-    color: whitesmoke;
-    height: 400px;
-
+.blue-section {
+  /*Tamaño del párrafo (palabras) debe ser igual en todos los dispositivos?*/
+  background-color: rgb(75, 131, 228);
+  color: whitesmoke;
+  padding: 50px 10px 20px 10px;
+  /*height: 30vh;*/
+  display: flex;
+  flex-direction: column;
+}
+.blue-section-h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 
 .boton {
-    background-color: green;
-    border-radius: 5px;
-    color: whitesmoke;
-    border: 1px solid green;
+  background-color: green;
+  border-radius: 20px;
+  color: whitesmoke;
+  border: 1px solid green;
+  margin: 20px 0;
+  padding: 10px 0;
 }
 
 .white-seccion {
-    background-color: white;
-    color: black;
-    height: 700px;
+  background-color: white;
+  color: black;
+  height: 50vh;
 }
 
 .footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
