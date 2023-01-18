@@ -11,6 +11,9 @@
   justify-content: space-between;
   height: 40px;
   padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .logo {
@@ -32,10 +35,10 @@
 }
 .blue-section-h1 {
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 30px; /*ver cómo aplicar porcentajes*/
 }
 
-.boton {
+.button {
   background-color: green;
   border-radius: 20px;
   color: whitesmoke;
@@ -44,10 +47,10 @@
   padding: 10px 0;
 }
 
-.white-seccion {
+.white-section {
   background-color: white;
   color: black;
-  height: 50vh;
+  height: 5000px;
 }
 
 .footer {
