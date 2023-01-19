@@ -1,21 +1,30 @@
+:root {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto";
+
 }
 
 .header {
   background-color: black;
-  display: flex;
-  justify-content: space-between;
-  height: 40px;
-  padding: 10px;
   position: sticky;
   top: 0;
   z-index: 2;
+  
 }
 
+.images-logo {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 1rem;
+
+}
 .logo {
   height: 100%;
 }
@@ -24,27 +33,33 @@
   height: 100%;
 }
 
+.container-link {
+  display: none;
+  
+}
+
 .blue-section {
   /*Tamaño del párrafo (palabras) debe ser igual en todos los dispositivos?*/
   background-color: rgb(75, 131, 228);
   color: whitesmoke;
-  padding: 50px 10px 20px 10px;
+  padding: 5rem 1rem 2rem 1rem;
   /*height: 30vh;*/
   display: flex;
   flex-direction: column;
 }
 .blue-section-h1 {
-  margin-bottom: 10px;
-  font-size: 30px; /*ver cómo aplicar porcentajes*/
+  font-size: 3rem;
+  margin-bottom: 0.3em;
+  /*ver cómo aplicar porcentajes*/
 }
 
 .button {
   background-color: green;
-  border-radius: 20px;
+  border-radius: 2rem;
   color: whitesmoke;
   border: 1px solid green;
-  margin: 20px 0;
-  padding: 10px 0;
+  margin: 2rem 0;
+  padding: 1rem 0;
 }
 
 .white-section {
@@ -57,3 +72,27 @@
   background-color: black;
   color: white;
 }
+
+@media (min-width: 480px) {
+.images-logo {
+  height: 6rem;
+    padding: 2rem;
+
+}
+.logo {
+  height: 100%;
+
+}
+.burger-menu {
+  display: none;
+  
+}
+.container-link {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 4;
+  color: white;
+
+}
+}
+
